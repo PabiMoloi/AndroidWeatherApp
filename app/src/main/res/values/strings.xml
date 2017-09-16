@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Local Weather</string>
+    <string name="version">Version</string>
+    <string name="versionNumber"></string>
+    <string name="ok"> OK </string>
+    <string name="appLogo">AppLogo</string>
+    <string name="weatherDescription"></string>
+    <string name ="currentLocation"></string>
+    <string name="maximumTemperature">Maximum</string>
+    <string name="maximumValue"></string>
+    <string name="minimumTemperature">Minimum</string>
+    <string name="minimumValue"></string>
+    <string name="retrieveLocationAndWeatherInformation">Retrieving location and weather data...</string>
+    <string name="currentDate">Current Date</string>
+    <string name="enableGPS">This application makes use of GPS to retrieve your location. Please ensure that your GPS is enabled.</string>
+    <string name="connectToNetwork">This application makes use a connection to the Internet or WiFi. Please ensure that you have connectivity.</string>
+    <string name="locationServicesPermissions">This application makes use of location services. Allow the application access to the permission.</string>
+</resources>

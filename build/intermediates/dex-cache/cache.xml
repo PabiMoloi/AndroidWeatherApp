@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Users\Pabi Moloi\.android\build-cache\6be107cf853cba7757aa3bd35c16f89f76335f2b\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e7f3132168957eefc46229fc32c3bd464642b71e">
+        <dex dex="C:\Users\Pabi Moloi\AndroidStudioProjects\MyLocalWeather\app\build\intermediates\pre-dexed\debug\classes_698a90b589e29587588d42ecdb0b9a0e36509e82.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Pabi Moloi\.android\build-cache\a52bd2de44bb21555f646c19db53f355aca444ec\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
+        <dex dex="C:\Users\Pabi Moloi\AndroidStudioProjects\MyLocalWeather\app\build\intermediates\pre-dexed\debug\classes_3844a0e4e80f27b265067d1a149d65b0cb1cad9d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Pabi Moloi\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.8.1\2a8e0aa38a2e21cb39e2f5a7d6704cbdc941da0\gson-2.8.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="02a8e0aa38a2e21cb39e2f5a7d6704cbdc941da0">
+        <dex dex="C:\Users\Pabi Moloi\AndroidStudioProjects\MyLocalWeather\app\build\intermediates\pre-dexed\debug\gson-2.8.1_4545231b5e084bf4df13527f95ab318e0814e8b5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Pabi Moloi\AppData\Local\Android\sdk1\extras\m2repository\com\android\support\constraint\constraint-layout-solver\1.0.2\constraint-layout-solver-1.0.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
+        <dex dex="C:\Users\Pabi Moloi\AndroidStudioProjects\MyLocalWeather\app\build\intermediates\pre-dexed\debug\constraint-layout-solver-1.0.2_334eda0cc5eb614accb28d949ecf165fd40290b0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Pabi Moloi\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit2\converter-gson\2.3.0\9e09011e9767bb76b5e27c9b8223476b93b14631\converter-gson-2.3.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="9e09011e9767bb76b5e27c9b8223476b93b14631">
+        <dex dex="C:\Users\Pabi Moloi\AndroidStudioProjects\MyLocalWeather\app\build\intermediates\pre-dexed\debug\converter-gson-2.3.0_5fd44d41c792e6b7320066bdc7ba0f21ada937d1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Pabi Moloi\.android\build-cache\9d64d94edcaa83802a6da719060b153065f56602\output\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="fbf8da429efd5ad21e02e3e5ecaa1efc4167878d">
+        <dex dex="C:\Users\Pabi Moloi\AndroidStudioProjects\MyLocalWeather\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.1_71f350e0c823477ec5928e1dd9aee4a69e5fd7df.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Pabi Moloi\AppData\Local\Android\sdk1\extras\android\m2repository\com\android\support\support-annotations\24.2.1\support-annotations-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="8de3aafecbdf98a61db6427f008f2d515bcd2544">
+        <dex dex="C:\Users\Pabi Moloi\AndroidStudioProjects\MyLocalWeather\app\build\intermediates\pre-dexed\debug\support-annotations-24.2.1_45e709d9713cfa4484bf0c266d0baaba56e5b5c2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Pabi Moloi\.android\build-cache\3a667c130ca45e8de1549d3e8d3969487dc87066\output\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
+        <dex dex="C:\Users\Pabi Moloi\AndroidStudioProjects\MyLocalWeather\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.1_7379461ee08521e9ef5b70e125ccbbf19aa19aae.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Pabi Moloi\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.13.0\a9283170b7305c8d92d25aff02a6ab7e45d06cbe\okio-1.13.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="a9283170b7305c8d92d25aff02a6ab7e45d06cbe">
+        <dex dex="C:\Users\Pabi Moloi\AndroidStudioProjects\MyLocalWeather\app\build\intermediates\pre-dexed\debug\okio-1.13.0_9afaf4176f438b2fdd1cc7551e8faefa692a7a19.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Pabi Moloi\.android\build-cache\a52bd2de44bb21555f646c19db53f355aca444ec\output\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="5f64d657e838e8375135c0f6057a7ff8fab6a50e">
+        <dex dex="C:\Users\Pabi Moloi\AndroidStudioProjects\MyLocalWeather\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.1_dc0a85ba7234a0adbad82ada2790fae39ab1f85c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Pabi Moloi\.android\build-cache\3aedcdee27d16f4d1fb7f7ffe785e944cf89fbe1\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
+        <dex dex="C:\Users\Pabi Moloi\AndroidStudioProjects\MyLocalWeather\app\build\intermediates\pre-dexed\debug\classes_93349fe00ab3840bb66880200f1089b77b1344f5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Pabi Moloi\.android\build-cache\d36e7acc5e1e4c91f5995914a9cf705c6b5c11ac\output\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="7e4389bd133359a2ff88623ff1e4ff93d6e6f780">
+        <dex dex="C:\Users\Pabi Moloi\AndroidStudioProjects\MyLocalWeather\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.1_240d02f2d8624f744d0a87cc3699bf9a8f51170d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Pabi Moloi\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp\3.8.0\5a11f020cce2d11eb71ba916700600e18c4547e7\okhttp-3.8.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="5a11f020cce2d11eb71ba916700600e18c4547e7">
+        <dex dex="C:\Users\Pabi Moloi\AndroidStudioProjects\MyLocalWeather\app\build\intermediates\pre-dexed\debug\okhttp-3.8.0_a5ad5a27ce5125f03235a44f3d7cd77b3185bcc0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Pabi Moloi\.android\build-cache\3a667c130ca45e8de1549d3e8d3969487dc87066\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
+        <dex dex="C:\Users\Pabi Moloi\AndroidStudioProjects\MyLocalWeather\app\build\intermediates\pre-dexed\debug\classes_0ffe89e057aa8de88e0f2cf4dbfe352900b8c3fd.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Pabi Moloi\.android\build-cache\d36e7acc5e1e4c91f5995914a9cf705c6b5c11ac\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
+        <dex dex="C:\Users\Pabi Moloi\AndroidStudioProjects\MyLocalWeather\app\build\intermediates\pre-dexed\debug\classes_8457a03a85213e13f3edb1663e814af70bc8017d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Pabi Moloi\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit2\retrofit\2.3.0\bcacde6a8ccedcc56c127403d26b76072fe6214d\retrofit-2.3.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="bcacde6a8ccedcc56c127403d26b76072fe6214d">
+        <dex dex="C:\Users\Pabi Moloi\AndroidStudioProjects\MyLocalWeather\app\build\intermediates\pre-dexed\debug\retrofit-2.3.0_8bc4c51ca6d535dbdc7a205efde19a17e30f149c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Pabi Moloi\.android\build-cache\0c77e2dae3f051d5e7f1786114b34d8e6bf17ba9\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Users\Pabi Moloi\AndroidStudioProjects\MyLocalWeather\app\build\intermediates\pre-dexed\debug\classes_d8a0cacd3989246599d23c0a3f2c8e60602867c5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Pabi Moloi\.android\build-cache\3668ea20da8d0df0cfb3064a2e307406aa177d41\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
+        <dex dex="C:\Users\Pabi Moloi\AndroidStudioProjects\MyLocalWeather\app\build\intermediates\pre-dexed\debug\classes_f79788d59f8d1fa8d92db77506ae81b8a7b1284d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Pabi Moloi\.android\build-cache\f80aaf18db133c3533e24904f3ff73eefe111a38\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d5c731fc64c03dfe04d51134955b483551c35849">
+        <dex dex="C:\Users\Pabi Moloi\AndroidStudioProjects\MyLocalWeather\app\build\intermediates\pre-dexed\debug\classes_021e72929639be7c99100ed338219bb7fc447221.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Pabi Moloi\.android\build-cache\5ef481a1d6162a439a28f4b05587fd2494fa378d\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
+        <dex dex="C:\Users\Pabi Moloi\AndroidStudioProjects\MyLocalWeather\app\build\intermediates\pre-dexed\debug\classes_fd8e521f8f0f82b5281b4d58a56d402e0601c8a0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Pabi Moloi\.android\build-cache\6be107cf853cba7757aa3bd35c16f89f76335f2b\output\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="867dad63c33388ff8c7644b236579355036d075f">
+        <dex dex="C:\Users\Pabi Moloi\AndroidStudioProjects\MyLocalWeather\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.1_51aad60780753d950cc48735c9d41bc5875c057d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Pabi Moloi\.android\build-cache\9d64d94edcaa83802a6da719060b153065f56602\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
+        <dex dex="C:\Users\Pabi Moloi\AndroidStudioProjects\MyLocalWeather\app\build\intermediates\pre-dexed\debug\classes_b97ae4e4f7eceaac783393c6fd5a832acde4e379.jar" />
+    </item>
+
+</items>
