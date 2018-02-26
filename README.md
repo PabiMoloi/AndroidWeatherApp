@@ -3,6 +3,7 @@ A simple android application that fetches and displays current weather for the c
 
 # Screenshots
 ![Screenshot](https://github.com/PabiMoloi/AndroidWeatherApp/blob/master/art/weatherApp.png)
+![Screenshot](https://github.com/PabiMoloi/AndroidWeatherApp/blob/master/art/splashScreen.png)
 
 # Libraries
 - Retrofit 2.3.0

@@ -12,7 +12,7 @@
         android:left="0dp"
         android:right="-300dp">
         <rotate
-            android:fromDegrees="-15"
+            android:fromDegrees="-10"
             android:pivotX="0%"
             android:pivotY="100%">
             <shape

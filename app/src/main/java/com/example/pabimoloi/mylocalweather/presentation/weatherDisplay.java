@@ -51,7 +51,6 @@ public class weatherDisplay extends AppCompatActivity
     String APIKEY= "ee53d4cfdf918d921aa0aed8d5d32f80";
     StringBuilder addressStringBuilder;
     Calendar calendar;
-    //SimpleDateFormat simpleDateFormat;
     DateFormatUtil dateFormatUtil;
     AlertDialog.Builder alertDialogBuilder;
 
@@ -99,11 +98,12 @@ public class weatherDisplay extends AppCompatActivity
                 dialog.show();
             }
         };
-        locationManager.requestLocationUpdates(LocationManager.NETWORK_PROVIDER,0,0,locationListener);
+
         int permissionCheck = ContextCompat.checkSelfPermission(weatherDisplay.this, Manifest.permission.ACCESS_FINE_LOCATION);
         if(permissionCheck == 0)
         {
             location = locationManager.getLastKnownLocation(LocationManager.NETWORK_PROVIDER);
+            locationManager.requestLocationUpdates(LocationManager.NETWORK_PROVIDER,0,0,locationListener);
         }
         if(location != null )
         {
