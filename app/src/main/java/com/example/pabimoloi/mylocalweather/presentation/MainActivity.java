@@ -1,4 +1,4 @@
-package com.example.pabimoloi.mylocalweather;
+package com.example.pabimoloi.mylocalweather.presentation;
 
 import android.app.AlertDialog;
 import android.content.Context;
@@ -14,6 +14,9 @@ import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
 import android.Manifest;
 import android.widget.TextView;
+
+import com.example.pabimoloi.mylocalweather.BuildConfig;
+import com.example.pabimoloi.mylocalweather.R;
 
 public class MainActivity extends AppCompatActivity {
 

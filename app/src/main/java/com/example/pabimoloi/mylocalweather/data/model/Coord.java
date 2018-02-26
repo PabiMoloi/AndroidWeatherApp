@@ -1,4 +1,4 @@
-package data.model.model;
+package com.example.pabimoloi.mylocalweather.data.model;
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
 /**

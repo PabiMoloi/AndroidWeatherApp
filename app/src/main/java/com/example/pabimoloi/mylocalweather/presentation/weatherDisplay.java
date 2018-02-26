@@ -1,4 +1,4 @@
-package com.example.pabimoloi.mylocalweather;
+package com.example.pabimoloi.mylocalweather.presentation;
 
 import android.Manifest;
 import android.app.AlertDialog;
@@ -27,10 +27,11 @@ import java.util.List;
 import java.util.Locale;
 
 
-import data.model.model.Weather;
-import data.model.model.WeatherResponse;
-import data.model.remote.RetrofitService;
-import data.model.remote.RetrofitUtility;
+import com.example.pabimoloi.mylocalweather.R;
+import com.example.pabimoloi.mylocalweather.data.model.Weather;
+import com.example.pabimoloi.mylocalweather.data.model.WeatherResponse;
+import com.example.pabimoloi.mylocalweather.data.remote.RetrofitService;
+import com.example.pabimoloi.mylocalweather.data.remote.RetrofitUtility;
 import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Response;

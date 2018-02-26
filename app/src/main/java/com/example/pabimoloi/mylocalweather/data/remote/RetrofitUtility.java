@@ -1,4 +1,4 @@
-package data.model.remote;
+package com.example.pabimoloi.mylocalweather.data.remote;
 
 /**
  * Created by Pabi Moloi on 9/12/2017.

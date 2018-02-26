@@ -1,4 +1,4 @@
-package data.model.model;
+package com.example.pabimoloi.mylocalweather.data.model;
 
 import java.util.List;
 import com.google.gson.annotations.Expose;

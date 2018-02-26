@@ -1,6 +1,5 @@
-package data.model.remote;
-import data.model.model.Main;
-import data.model.model.WeatherResponse;
+package com.example.pabimoloi.mylocalweather.data.remote;
+import com.example.pabimoloi.mylocalweather.data.model.WeatherResponse;
 import retrofit2.Call;
 import retrofit2.http.GET;
 import retrofit2.http.Query;

@@ -1,4 +1,4 @@
-package data.model.model;
+package com.example.pabimoloi.mylocalweather.data.model;
 
 /**
  * Created by Pabi Moloi on 9/12/2017.

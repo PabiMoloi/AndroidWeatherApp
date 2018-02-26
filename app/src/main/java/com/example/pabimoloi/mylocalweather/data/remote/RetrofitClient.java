@@ -1,4 +1,4 @@
-package data.model.remote;
+package com.example.pabimoloi.mylocalweather.data.remote;
 
 import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;
