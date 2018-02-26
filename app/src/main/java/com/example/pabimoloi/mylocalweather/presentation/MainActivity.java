@@ -36,7 +36,7 @@ public class MainActivity extends AppCompatActivity {
         locationManager = (LocationManager) getSystemService(LOCATION_SERVICE);
         permissionResult = this.checkCallingOrSelfPermission("android.permission.ACCESS_FINE_LOCATION");
         alertDialogBuilder = new AlertDialog.Builder(MainActivity.this);
-        versionNumber = (TextView)findViewById(R.id.textViewVersionNumber);
+        versionNumber = findViewById(R.id.textViewVersionNumber);
         versionNumber.setText(BuildConfig.VERSION_NAME);
     }
 

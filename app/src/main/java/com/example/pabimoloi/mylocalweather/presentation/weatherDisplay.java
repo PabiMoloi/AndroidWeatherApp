@@ -28,6 +28,7 @@ import java.util.Locale;
 
 
 import com.example.pabimoloi.mylocalweather.R;
+import com.example.pabimoloi.mylocalweather.data.DateFormatUtil;
 import com.example.pabimoloi.mylocalweather.data.model.Weather;
 import com.example.pabimoloi.mylocalweather.data.model.WeatherResponse;
 import com.example.pabimoloi.mylocalweather.data.remote.RetrofitService;
@@ -42,13 +43,14 @@ public class weatherDisplay extends AppCompatActivity
     ProgressBar progressBarRetrieveData;
     Location location;
     double latitude, longitude;
-    TextView currentLocation, minimumTemperature, maximumTemperature, weatherDescription, currentDate,progressBarText;
+    TextView currentLocation, minimumTemperature, maximumTemperature, weatherDescription, currentDate,progressBarText,humidity,pressure;
     Geocoder geocoder;
     RetrofitService retrofitService;
     String APIKEY= "ee53d4cfdf918d921aa0aed8d5d32f80";
     StringBuilder addressStringBuilder;
     Calendar calendar;
-    SimpleDateFormat simpleDateFormat;
+    //SimpleDateFormat simpleDateFormat;
+    DateFormatUtil dateFormatUtil;
     AlertDialog.Builder alertDialogBuilder;
 
     @Override
@@ -126,7 +128,7 @@ public class weatherDisplay extends AppCompatActivity
         }
         catch (IOException e)
         {
-
+            Log.d("Exception: ", e.getMessage());
         }
         getWeather();
     }
@@ -134,17 +136,19 @@ public class weatherDisplay extends AppCompatActivity
     {
         locationManager = (LocationManager)getSystemService(Context.LOCATION_SERVICE);
         retrofitService = RetrofitUtility.getRetrofitService();
-        currentLocation = (TextView)findViewById(R.id.LocationTextView);
-        minimumTemperature = (TextView)findViewById(R.id.txtMinimumValue);
-        maximumTemperature = (TextView)findViewById(R.id.txtMaximumValue);
-        weatherDescription = (TextView) findViewById(R.id.textViewWeatherDescription);
-        currentDate = (TextView)findViewById(R.id.textViewDate);
-        progressBarText = (TextView)findViewById((R.id.textViewProgressBarText));
-        progressBarRetrieveData = (ProgressBar)findViewById(R.id.progressBarRetrieveData);
+        currentLocation = findViewById(R.id.LocationTextView);
+        minimumTemperature = findViewById(R.id.txtMinimumValue);
+        maximumTemperature = findViewById(R.id.txtMaximumValue);
+        weatherDescription = findViewById(R.id.textViewWeatherDescription);
+        humidity = findViewById(R.id.textViewHumidityValue);
+        pressure = findViewById(R.id.textViewPressureValue);
+        currentDate = findViewById(R.id.textViewDate);
+        progressBarText = findViewById((R.id.textViewProgressBarText));
+        progressBarRetrieveData = findViewById(R.id.progressBarRetrieveData);
         alertDialogBuilder = new AlertDialog.Builder(weatherDisplay.this);
         calendar = Calendar.getInstance();
-        simpleDateFormat = new SimpleDateFormat("E,LLLL d y");
-        currentDate.setText(simpleDateFormat.format(calendar.getTime()));
+        dateFormatUtil = new DateFormatUtil();
+        currentDate.setText(dateFormatUtil.getSimpleDateFormat().format(calendar.getTime()));
 
     }
 
@@ -163,6 +167,8 @@ public void getWeather()
                 weatherDescription.setText(list.get(0).getDescription().toUpperCase());
                 maximumTemperature.setText(response.body().getMain().getTempMax().toString()+ " \u2103");
                 minimumTemperature.setText(response.body().getMain().getTempMin().toString() + " \u2103");
+                humidity.setText((response.body().getMain().getHumidity()).toString());
+                pressure.setText(response.body().getMain().getPressure().toString());
                 progressBarRetrieveData.setVisibility(View.INVISIBLE);
                 ShowDisplayElements();
 
@@ -182,6 +188,8 @@ private void ShowDisplayElements()
     weatherDescription.setVisibility(View.VISIBLE);
     maximumTemperature.setVisibility(View.VISIBLE);
     minimumTemperature.setVisibility(View.VISIBLE);
+    humidity.setVisibility(View.VISIBLE);
+    pressure.setVisibility(View.VISIBLE);
     progressBarText.setVisibility(View.INVISIBLE);
 }
 
