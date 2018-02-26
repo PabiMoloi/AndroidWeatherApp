@@ -31,6 +31,15 @@ import com.google.gson.annotations.SerializedName;
         @Expose
         private Double grndLevel;
 
+        public String getIcon() {return icon;}
+
+        public void setIcon(String icon) {this.icon = icon;}
+
+        @SerializedName("icon")
+        @Expose
+        private String icon;
+
+
         public Double getTemp() {
             return temp;
         }

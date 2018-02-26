@@ -14,6 +14,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
+import android.widget.ImageView;
 import android.widget.ProgressBar;
 import android.widget.TextView;
 
@@ -44,6 +45,7 @@ public class weatherDisplay extends AppCompatActivity
     Location location;
     double latitude, longitude;
     TextView currentLocation, minimumTemperature, maximumTemperature, weatherDescription, currentDate,progressBarText,humidity,pressure;
+    ImageView weatherIcon;
     Geocoder geocoder;
     RetrofitService retrofitService;
     String APIKEY= "ee53d4cfdf918d921aa0aed8d5d32f80";
@@ -145,6 +147,7 @@ public class weatherDisplay extends AppCompatActivity
         currentDate = findViewById(R.id.textViewDate);
         progressBarText = findViewById((R.id.textViewProgressBarText));
         progressBarRetrieveData = findViewById(R.id.progressBarRetrieveData);
+        weatherIcon = findViewById(R.id.imageViewIcon);
         alertDialogBuilder = new AlertDialog.Builder(weatherDisplay.this);
         calendar = Calendar.getInstance();
         dateFormatUtil = new DateFormatUtil();
@@ -167,8 +170,28 @@ public void getWeather()
                 weatherDescription.setText(list.get(0).getDescription().toUpperCase());
                 maximumTemperature.setText(response.body().getMain().getTempMax().toString()+ " \u2103");
                 minimumTemperature.setText(response.body().getMain().getTempMin().toString() + " \u2103");
-                humidity.setText((response.body().getMain().getHumidity()).toString());
-                pressure.setText(response.body().getMain().getPressure().toString());
+                humidity.setText((response.body().getMain().getHumidity()).toString() + " %");
+                pressure.setText(response.body().getMain().getPressure().toString()+ " hPa");
+                switch (list.get(0).getIcon().toString()){
+                    case "01d": weatherIcon.setImageResource(R.drawable.sunny);
+                    case "02d":weatherIcon.setImageResource(R.drawable.sun_and_cloud);
+                    case "03d": weatherIcon.setImageResource(R.drawable.partly_cloudy);
+                    case "04d": weatherIcon.setImageResource(R.drawable.partly_cloudy);
+                    case "09d":weatherIcon.setImageResource(R.drawable.rain);
+                    case "10d":weatherIcon.setImageResource(R.drawable.rain);
+                    case "11d":weatherIcon.setImageResource(R.drawable.rain);
+                    case "13d":weatherIcon.setImageResource(R.drawable.snow);
+                    case "50d":weatherIcon.setImageResource(R.drawable.snow);
+                    case "01n": weatherIcon.setImageResource(R.drawable.sunny);
+                    case "02n":weatherIcon.setImageResource(R.drawable.sun_and_cloud);
+                    case "03n": weatherIcon.setImageResource(R.drawable.partly_cloudy);
+                    case "04n": weatherIcon.setImageResource(R.drawable.partly_cloudy);
+                    case "09n":weatherIcon.setImageResource(R.drawable.rain);
+                    case "10n":weatherIcon.setImageResource(R.drawable.rain);
+                    case "11n":weatherIcon.setImageResource(R.drawable.rain);
+                    case "13n":weatherIcon.setImageResource(R.drawable.snow);
+                    case "50n":weatherIcon.setImageResource(R.drawable.snow);
+                }
                 progressBarRetrieveData.setVisibility(View.INVISIBLE);
                 ShowDisplayElements();
 
@@ -191,6 +214,7 @@ private void ShowDisplayElements()
     humidity.setVisibility(View.VISIBLE);
     pressure.setVisibility(View.VISIBLE);
     progressBarText.setVisibility(View.INVISIBLE);
+    weatherIcon.setVisibility(View.VISIBLE);
 }
 
 }
