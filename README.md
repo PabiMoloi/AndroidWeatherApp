@@ -8,6 +8,8 @@ A simple android application that fetches and displays current weather for the c
 - Retrofit 2.3.0
 - Android Support Library 26.1.0
 - Constraint Layout 1.0.2
+- GSON 2.8.1
+
 # How the app works
 - When the user opens the application, the application will prompt the user to turn on their gps and ensure that they have an internet connection.
 - Once available, the application will collect the user's current location, and make an api call to retrive the weather details.
